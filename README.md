@@ -23,7 +23,6 @@ emotion-classification/
 ├── data_preprocessing.py      # Data preprocessing and feature extraction
 ├── model_training.py          # SVM model training and evaluation
 ├── main.py                   # Main pipeline execution
-├── emotions.xlsx             # Dataset (Excel format)
 ├── fast_emotion_model_*.pkl  # Trained SVM model
 ├── vectorizer_*.pkl          # TF-IDF vectorizer
 └── README.md                # This file
@@ -31,7 +30,7 @@ emotion-classification/
 
 ## Dataset
 
-The project uses an emotion dataset with the following structure:
+The project uses an emotion dataset named emotions.csv from Kaggle but could not be uploaded because of it's size  and has  following structure: 
 - **Text Column**: Raw text data for classification
 - **Label Column**: Emotion labels (0-5 scale)
 
